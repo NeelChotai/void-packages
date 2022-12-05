@@ -1,6 +1,6 @@
 # Template file for 'jellyfin-mpv-shim'
 pkgname=jellyfin-mpv-shim
-version=2.0.1
+version=2.2.0
 revision=1
 build_style=python3-module
 hostmakedepends="python3-setuptools gettext"
@@ -14,7 +14,7 @@ maintainer="Neel Chotai <neel@chot.ai>"
 license="MIT, GPL-3.0-or-later"
 homepage="https://github.com/jellyfin/jellyfin-mpv-shim"
 distfiles="https://github.com/jellyfin/jellyfin-mpv-shim/archive/v${version}.tar.gz"
-checksum=14eaec91a93df8db96fc6a541e2b5adf21c8c7c0f61f997e2f60a63ab591ccbb
+checksum=ec1b2bb82e57347c315e38609d03acea5c51d7de6f14414dcb443c9a1a33a964
 make_check=extended
 
 build_options="mirror shaders systray"
